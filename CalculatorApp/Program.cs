@@ -58,7 +58,6 @@ namespace CalculatorApp
             }
             catch (InvalidOperationException ex)
             {
-                1
                 _logger.LogError(ex, "Invalid operation.");
                 Console.WriteLine(ex.Message);
             }
